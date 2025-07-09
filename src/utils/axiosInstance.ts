@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // ✅ Use Vite's environment variable properly
-const baseURL = import.meta.env.VITE_API_URL || 'http://98.70.58.117:3000';
+const baseURL = import.meta.env.VITE_API_URL,
 
 const axiosInstance = axios.create({
   baseURL,
