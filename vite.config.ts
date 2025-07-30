@@ -7,6 +7,6 @@ export default defineConfig({
   ],
   server: {
     host: true,  // listens on 0.0.0.0
-    port: 3000,
+    port: 7000,
   }
 })
